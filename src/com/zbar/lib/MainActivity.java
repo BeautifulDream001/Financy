@@ -341,6 +341,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 		
 	}
  
+
 protected void onStop() {
 	// TODO Auto-generated method stub
 	if(tabWebView!=null){
@@ -351,7 +352,9 @@ protected void onStop() {
 		tabWebView.freeMemory(); 
 		tabWebView.pauseTimers();
 		tabWebView = null;
+		System.out.println("aaaaa");
 	}
 }
+
 
 }
