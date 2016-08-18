@@ -184,7 +184,6 @@ public class CaptureActivity extends Activity implements Callback {
 		 try {
 			Thread.sleep(500);
 			new HttpThread(strUrl, result).start();
-			System.out.println("111111111111111111111");
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
