@@ -342,20 +342,20 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 	}
  
 
-protected void onStop() {
-	// TODO Auto-generated method stub
-	if(tabWebView!=null){
-		tabWebView.destroy();
-		tabWebView.clearHistory();
-		tabWebView.clearCache(true);
-		tabWebView.loadUrl("about:blank");
-		tabWebView.freeMemory(); 
-		tabWebView.pauseTimers();
-		tabWebView = null;
-		System.out.println("aaaaa");
-		System.out.println("bbb");
-	}
-}
+//protected void onStop() {
+//	// TODO Auto-generated method stub
+//	if(tabWebView!=null){
+//		tabWebView.destroy();
+//		tabWebView.clearHistory();
+//		tabWebView.clearCache(true);
+//		tabWebView.loadUrl("about:blank");
+//		tabWebView.freeMemory(); 
+//		tabWebView.pauseTimers();
+//		tabWebView = null;
+//		System.out.println("aaaaa");
+//		System.out.println("bbb");
+//	}
+//}
 
 
 }
